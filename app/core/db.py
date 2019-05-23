@@ -72,6 +72,7 @@ class DB:
                 self.coon.close()
         except:
             pass
+    pass        
 
 db = DB(host=DHOST,port=DPORT,user=DUSER,password=DPASSWORD,database=DATABASE)
 
